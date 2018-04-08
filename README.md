@@ -8,6 +8,7 @@ There are some options available:
 --source: name of source file to encode
 --dest: name of destination file
 --dir: the working dir to look for files in
+-a: to append rather than overwrite
 ```
 
 You run `node encrypt.js [options]` to encrypt and `node decrypt.js [options]` to decrypt
@@ -17,6 +18,7 @@ Password is required to be the same across encryptions/decryptions in order for 
 ## EXAMPLE
 ```
 node encrypt.js --password=secret --dir=. --source=mypasswords.txt --dest=encrypted.enc
+-a
 ```
 
 I am not responsible for sensitive files being overwritten using this program.
