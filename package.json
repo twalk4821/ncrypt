@@ -1,14 +1,14 @@
 {
   "name": "ncrypt-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create encrypted volumes from the command line",
   "main": "decrypt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/npm/npm.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
   },
   "author": "Tyler Walker",
   "license": "ISC"
