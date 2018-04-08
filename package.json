@@ -1,6 +1,6 @@
 {
   "name": "ncrypt-stream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create encrypted volumes from the command line",
   "main": "decrypt.js",
   "scripts": {
