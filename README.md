@@ -11,9 +11,11 @@ There are some options available:
 -a: to append rather than overwrite
 ```
 
-You run `node encrypt.js [options]` to encrypt and `node decrypt.js [options]` to decrypt
+Install globally with `npm install ncrypt-stream -g`
+Then `encrypt [options]` to encrypt and `decrypt [options]`
 
 Password is required to be the same across encryptions/decryptions in order for everything to work properly
+
 
 ## EXAMPLE
 ```
