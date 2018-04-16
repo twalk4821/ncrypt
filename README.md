@@ -19,7 +19,7 @@ Password is required to be the same across encryptions/decryptions in order for 
 
 ## EXAMPLE
 ```
-node encrypt.js --password=secret --dir=. --source=mypasswords.txt --dest=encrypted.enc
+encrypt --password=secret --dir=. --source=mypasswords.txt --dest=encrypted.enc
 -a
 ```
 
